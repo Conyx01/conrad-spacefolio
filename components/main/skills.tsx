@@ -7,6 +7,7 @@ import {
   FULLSTACK_SKILL,
   OTHER_SKILL,
   SKILL_DATA,
+  Skill,
 } from "@/constants";
 
 export const Skills = () => {
@@ -68,7 +69,7 @@ export const Skills = () => {
         ))}
       </div>
       <div className="flex flex-row justify-around flex-wrap mt-4 gap-5 items-center">
-        {OTHER_SKILL.map((skill, i) => (
+        {OTHER_SKILL.map((skill: Skill, i) => (
           <SkillDataProvider
             key={skill.skill_name}
             src={skill.image}

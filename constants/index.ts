@@ -7,7 +7,14 @@ import {
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
+export type Skill = {
+  skill_name: string;
+  image: string;
+  width: number;
+  height: number;
+};
+
+export const SKILL_DATA: Skill[] = [
   {
     skill_name: "HTML",
     image: "html.png",
@@ -87,17 +94,17 @@ export const SOCIALS = [
   {
     name: "Instagram",
     icon: RxInstagramLogo,
-    link: "https://instagram.com",
+    link: "https://www.instagram.com/conrad_o1",
   },
   {
     name: "Facebook",
     icon: FaFacebook,
-    link: "https://facebook.com",
+    link: "https://web.facebook.com/conrad.zidana.7/",
   },
   {
     name: "Twitter",
     icon: RxTwitterLogo,
-    link: "https://twitter.com",
+    link: "https://x.com/just_conrad01",
   },
 ] as const;
 
@@ -166,31 +173,30 @@ export const BACKEND_SKILL = [
 
 ] as const;
 
-export const FULLSTACK_SKILL = [
-] as const;
+export const FULLSTACK_SKILL: Skill[] = [] as const;
 
-export const OTHER_SKILL = [
-
-] as const;
+export const OTHER_SKILL: Skill[] = [] as const;
 
 export const PROJECTS = [
   {
-    title: "🛒 Tekisky Mart – The Future of eCommerce",
-    
-    image: "/projects/project-1.webp",
-    link: "https://tekiskymart.com/",
+    title: "Anitta AI – AI Therapist",
+    image: "/projects/project-1.png",
+    link: "https://hume-evi-next-js-starter-ruddy.vercel.app/",
   },
   {
-    title: "Tekisky – The Future of Tech",
-
-    image: "/projects/project-2.webp",
-    link: "https://tekisky.com/",
+    title: "Activerse – Blockchain Platform",
+    image: "/projects/project-2.png",
+    link: "https://activerse.midascreed.com/",
   },
   {
-    title: "Speedline Auto Parts – The Future of Auto Parts",
-   
-    image: "/projects/project-3.webp",
-    link: "https://speedlineautoparts.netlify.app/",
+    title: "Rhema-AI – AI Healthcare Assistant",
+    image: "/projects/project-3.png",
+    link: "https://rhema-ai.vercel.app/",
+  },
+  {
+    title: "MidasCreed – Corporate Innovation Center",
+    image: "/projects/project-4.png",
+    link: "https://www.midascreed.com/",
   },
 ] as const;
 
@@ -198,34 +204,30 @@ export const FOOTER_DATA = [
   {
     title: "Community",
     data: [
-
       {
         name: "GitHub",
         icon: RxGithubLogo,
-        link: "https://github.com",
+        link: "https://github.com/Conyx01",
       },
-
     ],
   },
   {
     title: "Social Media",
     data: [
-
       {
         name: "Linkedin",
         icon: RxLinkedinLogo,
-        link: "https://www.linkedin.com/in/abdul-raheman-389597281/",
+        link: "https://www.linkedin.com/in/conrad-zidana-94554b21b",
       },
     ],
   },
   {
     title: "About",
     data: [
-   
       {
         name: "Contact Me",
         icon: null,
-        link: "mailto:arrahmanofficial9@gmail.com",
+        link: "mailto:conrad01zidana@gmail.com",
       },
     ],
   },
@@ -239,6 +241,10 @@ export const NAV_LINKS = [
   {
     title: "Skills",
     link: "#skills",
+  },
+  {
+    title: "Experience",
+    link: "#experience",
   },
   {
     title: "Projects",

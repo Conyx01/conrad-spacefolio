@@ -17,14 +17,14 @@ export const ProjectCard = ({
       href={link}
       target="_blank"
       rel="noreferrer noopener"
-      className="w-full relative overflow-hidden rounded-lg shadow-lg hover:scale-[1.06] transition  ring-blue-500 border border-[#2A0E61]"
+      className="w-full max-w-[420px] aspect-square relative overflow-hidden rounded-lg shadow-lg hover:scale-[1.06] transition ring-blue-500 border border-[#2A0E61] mx-auto"
     >
       <Image
         src={src}
         alt={title}
-        width={1000}
-        height={1000}
-        className="w-full h-60  object-cover rounded-lg object-left-top "
+        width={420}
+        height={420}
+        className="w-full h-60 object-cover rounded-lg object-center"
       />
 
       <div className="relative p-4">

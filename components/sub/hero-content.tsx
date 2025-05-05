@@ -21,7 +21,7 @@ export const HeroContent = () => {
         >
           <SparklesIcon className="text-[#b49bff] h-4 w-4 md:h-5 md:w-5" />
           <h1 className="text-[12px] md:text-[13px] text-gray-200 font-semibold">
-            Fullstack Developer
+            Software Engineer| AI & Web 3 Enthusiast | (ISC)² CC
           </h1>
         </motion.div>
 
@@ -34,7 +34,7 @@ export const HeroContent = () => {
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Ideas
           </span>{" "}
-          into Seamless User{" "}
+          into Seamless Digital{" "}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-500 to-cyan-500">
             Experiences
           </span>
@@ -45,7 +45,7 @@ export const HeroContent = () => {
           variants={slideInFromLeft(0.8)}
           className="text-base sm:text-lg text-gray-400 my-3 sm:my-4 max-w-[500px] mx-auto md:mx-0"
         >
-          I&apos;m a Full Stack Software Engineer specializing in building modern web applications. Check out my projects and skills.
+          I&apos;m a Software Engineer, focusing on emerging technologies. Passionate about building modern web applications, AI solutions, and Web3 technologies.
         </motion.p>
 
         {/* Call-to-Action Button */}
